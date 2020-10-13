@@ -1,0 +1,20 @@
+
+<h1>{{title}}</h1>
+
+<table>
+    <thead>
+        <th>Nombre</th>
+        <th>fecha de nacimiento</th>
+        <th>Edad</th>
+        <th>Direccion</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usuario of Usuarios">
+            <td>{{usuario.name}}</td>
+            <td>{{usuario.fecha}}</td>
+            <td>{{usuario.Edad}}</td>
+            <td>{{usuario.Direccion}}</td>
+        </tr>
+        
+    </tbody>
+</table>
